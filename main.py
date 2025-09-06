@@ -4,9 +4,6 @@ import numpy as np
 import os
 import base64   
 
-
-
-
 st.set_page_config(page_title="Dart To Done", page_icon="🎉", layout="wide")
 
 st.title("Dart To Done 🎇🎉")
@@ -41,11 +38,6 @@ def Image(path=None, caption=""):
         """,
         unsafe_allow_html=True
     )
-  
-
-
-
-
 
 
 def description_box(text, color):
@@ -70,7 +62,7 @@ def description_box(text, color):
 
 
 st.subheader("Part_1")
-Image(r"images\Screenshot 2025-09-03 163021.png", "Code Example")
+Image("images/Screenshot 2025-09-03 163021.png", "Code Example")
 
 if st.button("click here to see the description of the code", key="des_1", type="primary"):
     description_box(
@@ -86,11 +78,11 @@ if st.button("click here to see the description of the code", key="des_1", type=
     )
 
 if st.button("Click to see the result of the code", key="button_1"):
-    Image(r"images\re_1.png", "Result Example")
+    Image("images/re_1.png", "Result Example")
 
 
 st.subheader("Part_2")
-Image(r"images\Screenshot 2025-09-03 170447.png", "Code Example")
+Image("images/Screenshot 2025-09-03 170447.png", "Code Example")
 
 if st.button("click here to see the description of the code", key="des_2", type="primary"):
     description_box(
@@ -102,11 +94,11 @@ if st.button("click here to see the description of the code", key="des_2", type=
     )
 
 if st.button("Click to see the result of the code", key="button_2"):
-    Image(r"images\re_2.png", "Result Example")
+    Image("images/re_2.png", "Result Example")
 
 
 st.subheader("Part_3_If_Statement")
-Image(r"images\3.png", "If Statement Example")
+Image("images/3.png", "If Statement Example")
 
 if st.button("click here to see the description of the code", key="des_3", type="primary"):
     description_box(
@@ -119,11 +111,11 @@ if st.button("click here to see the description of the code", key="des_3", type=
     )
 
 if st.button("Click to see the result of the code", key="button_3"):
-    Image(r"images\re3.png", "Result Example")
+    Image("images/re3.png", "Result Example")
 
 
 st.subheader("Part_4")
-Image(r"images\4.png", "Loop Example")
+Image("images/4.png", "Loop Example")
 
 if st.button("click here to see the description of the code", key="des_4", type="primary"):
     description_box(
@@ -135,12 +127,12 @@ if st.button("click here to see the description of the code", key="des_4", type=
     )
 
 if st.button("Click to see the result of the code", key="button_4"):
-    Image(r"images\re4.png", "Result Example")
+    Image("images/re4.png", "Result Example")
 
 
 st.subheader("Part_5_Function")
-Image(r"images\5.png", "Function Example")
-Image(r"images\5_.png", "Function Call Example")
+Image("images/5.png", "Function Example")
+Image("images/5_.png", "Function Call Example")
 
 if st.button("click here to see the description of the code", key="des_5", type="primary"):
     description_box(
@@ -157,11 +149,11 @@ if st.button("click here to see the description of the code", key="des_5", type=
     )
 
 if st.button("Click to see the result of the code", key="button_5"):
-    Image(r"images\re5.png", "Result Example")
+    Image("images/re5.png", "Result Example")
 
 
 st.subheader("Last_Part")
-Image(r"images\6.png", "Arrow Function Example")
+Image("images/6.png", "Arrow Function Example")
 
 if st.button("click here to see the description of the code", key="des_6", type="primary"):
     description_box(
@@ -171,4 +163,4 @@ if st.button("click here to see the description of the code", key="des_6", type=
     )
 
 if st.button("Click to see the result of the code", key="button_6"):
-    Image(r"images\re_la.png", "Result Example")
+    Image("images/re_la.png", "Result Example")
